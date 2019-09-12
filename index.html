@@ -10,8 +10,36 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header class="container container1 bg-wrapper">
+  <header class="masthead">
+    <nav class="topnav-look container1">
+      <a href="./index.html"><img src="./img/logo.png" alt="site-logo" class="logo"></a>
+      <div class="topnav-item">
+        <label for="personal"><input type="radio" name="" id="user-type">Personal</label>
+        <label for="business"><input type="radio" name="" id="user-type">Business</label>
+      </div>
+      <div class="topnav-item">
+        <a href="#">About</a>
+        <a href="#">Pricing</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="topnav-item">
+        <a href="#">Login</a>
+        <a href="#" class="btn btn-header">Join now</a>
+      </div>
+    </nav>
+    <div class="row container1">
+      <div class="col">
+        <h1 class="hero-header">Just drive.<br>We'll do the rest.</h1>
+        <p class="hero-desc">All-inclusive, usage-based car subscription.</p>
+        <form action="">
+          <input type="tel" name="phone" placeholder="Phone number...">
+          <button type="button" class="btn btn-cta">Get started</button>
+        </form>
+      </div>
+    </div>
   </header><!--Masthead-->
+  <div class="col">About Us</div>
   <div class="container container1">
     <div class="row">
       <div class="col-md-6">Customer Testimonial</div>
